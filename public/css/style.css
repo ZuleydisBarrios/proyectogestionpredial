@@ -400,6 +400,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .carousel-inner .active.carousel-item-end {
   left: 0;
   transform: translate3d(0, 0, 0);
+  
 }
 #hero .carousel-control-prev, #hero .carousel-control-next {
   width: 10%;

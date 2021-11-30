@@ -12,8 +12,8 @@ const Carousel = ()=>(
         <div className="carousel-container">
           <div className="carousel-content">
             <h2 className="animate__animated animate__fadeInDown">Gestion Catastral <span> Huila</span></h2>
-            <p className="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid.Sequi ea ut et est quaerat sequi nihil ut aliquam.Occaecati alias dolorem mollitia ut.Similique ea voluptatem.Esse doloremque accusamus repellendus deleniti vel.Minus et tempore modi architecto.</p>
-            <a href="none" className="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+            <p className="animate__animated animate__fadeInUp">Aqui en tu portal catastral podrás realizar todos los procesos que necesitas para mantener tu predio al día con los impuestos</p>
+            <a href="none" className="btn-get-started animate__animated animate__fadeInUp">Más Información</a>
           </div>
         </div>
       </div>
@@ -22,9 +22,9 @@ const Carousel = ()=>(
       <div className="carousel-item" style={{ background: `url(/img/slide/slide-2.jpg)` }}>
         <div className="carousel-container">
           <div className="carousel-content">
-            <h2 className="animate__animated fanimate__adeInDown">Lorem <span>Ipsum Dolor</span></h2>
-            <p className="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid.Sequi ea ut et est quaerat sequi nihil ut aliquam.Occaecati alias dolorem mollitia ut.Similique ea voluptatem.Esse doloremque accusamus repellendus deleniti vel.Minus et tempore modi architecto.</p>
-            <a href="none" className="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+            <h2 className="animate__animated fanimate__adeInDown"> Aprovecha <br/><span>Descuentos</span></h2>
+            <p className="animate__animated animate__fadeInUp">La Gobernación del Huila te invita a cancelar antes del 31 de diciembre de 2021 y obtén un descuento del 15% sobre el pago de tu impuesto. ¡No esperes más!.</p>
+            <a href="none" className="btn-get-started animate__animated animate__fadeInUp">Más información</a>
           </div>
         </div>
       </div>
@@ -33,9 +33,9 @@ const Carousel = ()=>(
       <div className="carousel-item" style={{ background: `url(/img/slide/slide-3.jpg)` }}>
         <div className="carousel-container">
           <div className="carousel-content">
-            <h2 className="animate__animated animate__fadeInDown">Sequi ea <span>Dime Lara</span></h2>
-            <p className="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid.Sequi ea ut et est quaerat sequi nihil ut aliquam.Occaecati alias dolorem mollitia ut.Similique ea voluptatem.Esse doloremque accusamus repellendus deleniti vel.Minus et tempore modi architecto.</p>
-            <a href="none" className="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+            <h2 className="animate__animated animate__fadeInDown">Cancela <span> sin salir de casa!</span></h2>
+            <p className="animate__animated animate__fadeInUp">Gestiona toda tu información predial sin salir de casa, solo aqui por nuestro portal catastral. Registrate o inicia sesión</p>
+            <a href="none" className="btn-get-started animate__animated animate__fadeInUp">Ingresa</a>
           </div>
         </div>
       </div>
