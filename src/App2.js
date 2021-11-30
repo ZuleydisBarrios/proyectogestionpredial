@@ -6,22 +6,20 @@ import Footer from './components/Footer';
 import Main from './components/Main';
 import SobreNosotros from './components/SobreNosotros';
 import ContenedorInfo from './components/ContenedorInfo';
+import FormRegistro from './components/FormRegistro';
 
 
-function App() {
+function App2() {
   return (
     <div>
       <TopBar />
       <Header />
-      <Carousel />
-      <ContenedorInfo />
       < main id="main" >
-        <Main />
-        <SobreNosotros />      
+      <FormRegistro />
       </main >
       <Footer />
     </div >
   );
 }
 
-export default App;
+export default App2;

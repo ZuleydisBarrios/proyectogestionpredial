@@ -5,13 +5,13 @@ const Footer = ()=>(
           <div className="container">
             <div className="row">
               <div className="col-lg-6">
-                <h4>Our Newsletter</h4>
-                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                <h4>¡Suscribirse aqui!</h4>
+                <p>Registrese son su email y enterese de todas nuestras noticias</p>
               </div>
               <div className="col-lg-6">
                 <form action="" method="post">
                   <input type="email" name="email" />
-                  <input type="submit" value="Subscribe" />
+                  <input type="submit" value="Subscribirse" />
                 </form>
               </div>
             </div>
@@ -22,43 +22,33 @@ const Footer = ()=>(
           <div className="container">
             <div className="row">
 
-              <div className="col-lg-3 col-md-6 footer-links">
-                <h4>Useful Links</h4>
+              <div className="col-lg-4 col-md-6 footer-links">
+                <h4>Links de acceso</h4>
                 <ul>
-                  <li><i className="bx bx-chevron-right"></i> <a href="none">Home</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="none">About us</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="none">Services</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="none">Terms of service</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="none">Privacy policy</a></li>
+                  <li><i className="bx bx-chevron-right"></i> <a href="none">Inicio</a></li>
+                  <li><i className="bx bx-chevron-right"></i> <a href="none">Contáctenos</a></li>
+                  <li><i className="bx bx-chevron-right"></i> <a href="none">Team</a></li>
+                  <li><i className="bx bx-chevron-right"></i> <a href="none">Trámites</a></li>
+                  <li><i className="bx bx-chevron-right"></i> <a href="none">Política de privacidad</a></li>
                 </ul>
               </div>
 
-              <div className="col-lg-3 col-md-6 footer-links">
-                <h4>Our Services</h4>
-                <ul>
-                  <li><i className="bx bx-chevron-right"></i> <a href="none">Web Design</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="none">Web Development</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="none">Product Management</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="none">Marketing</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="none">Graphic Design</a></li>
-                </ul>
-              </div>
-
-              <div className="col-lg-3 col-md-6 footer-contact">
-                <h4>Contact Us</h4>
+              <div className="col-lg-4 col-md-6 footer-contact">
+                <h4>Contáctenos</h4>
                 <p>
-                  A108 Adam Street <br />
-                  New York, NY 535022<br />
-                  United States <br /><br />
-                  <strong>Phone: </strong> +1 5589 55488 55 <br />
-                  <strong>Email: </strong> info @example.com <br />
+                <strong>Dirección:</strong> carrera 4 Calle 8 Esquina Neiva - Huila - Colombia <br />
+                <strong>Horario:</strong> Lunes a Viernes de 8:00 a.m. a 4:00 p.m.<br />
+                Horario: Lunes a Viernes de 8:00 a.m. a 4:00 p.m.
+                <strong>Linea Nacional:</strong> 01 8000 968 716 <br />
+                  <strong>Nit:</strong> 800.103.913-4 <br />
+                  <strong>Email: </strong> notificaciones.judiciales@huila.gov.co<br />
                 </p>
 
               </div>
 
-              <div className="col-lg-3 col-md-6 footer-info">
-                <h3>About Eterna</h3>
-                <p>Cras fermentum odio eu feugiat lide par naso tierra.Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+              <div className="col-lg-4 col-md-6 footer-info">
+                <h3>Gobernación de Huila</h3>
+                <p>Este es el Portal de Gestión Catastral de la Gobernación del Huila, un espacio donde usted podrá realizar en línea y encontrar información de todos los trámites y servicios que la entidad ofrece para que usted pueda mantener su impuesto predial al día.</p>
                 <div className="social-links mt-3">
                   <a href="none" className="twitter"><i className="bx bxl-twitter"></i></a>
                   <a href="none" className="facebook"><i className="bx bxl-facebook"></i></a>
@@ -77,10 +67,6 @@ const Footer = ()=>(
             &copy; Copyright <strong><span>Gobernación de Huila</span></strong>.Todos los derechos reservados
           </div>
           <div className="credits">
-            {/* <!--All the links in the footer should remain intact. --> */}
-            {/* <!--You can delete the links only if you purchased the pro version. --> */}
-            {/* <!--Licensing information: https://bootstrapmade.com/license/ --> */}
-            {/* <!--Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/ --> */}
             Diseño: Grupo 11 Equipo8
           </div>
         </div>

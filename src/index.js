@@ -1,15 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap';
-import'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import reportWebVitals from './reportWebVitals';
 
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App2 from './App2';
+
+
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<App />} />
+        <Route path="/index2" element={<App2 />} />
+      </Routes>
+    </Router>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
