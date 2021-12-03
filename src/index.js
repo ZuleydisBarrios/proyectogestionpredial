@@ -1,3 +1,4 @@
+import './App.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap';
@@ -6,7 +7,9 @@ import reportWebVitals from './reportWebVitals';
 
 import './index.css';
 import App from './App';
-import App2 from './App2';
+import App2 from './App2'
+import App3 from './App3'
+import App4 from './App4'
 
 
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
@@ -16,7 +19,12 @@ ReactDOM.render(
     <Router>
       <Routes>
         <Route exact path="/" element={<App />} />
-        <Route path="/index2" element={<App2 />} />
+        <Route path="/registro" element={<App2 />} />
+        <Route path="/Contactenos" element={<App3 />} />
+        <Route path="/Login" element={<App4 />} />
+
+
+
       </Routes>
     </Router>
 

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Footer = ()=>(
     <footer id="footer">
 
@@ -5,13 +7,13 @@ const Footer = ()=>(
           <div className="container">
             <div className="row">
               <div className="col-lg-6">
-                <h4>¡Suscribirse aqui!</h4>
-                <p>Registrese son su email y enterese de todas nuestras noticias</p>
+                <h4>¡Registrarse aqui!</h4>
+                <p>Registrese son su email y mantenga su predio al día</p>
               </div>
               <div className="col-lg-6">
                 <form action="" method="post">
                   <input type="email" name="email" />
-                  <input type="submit" value="Subscribirse" />
+                  <Link to="/registro"><input type="submit" value="Registrarse" /></Link>
                 </form>
               </div>
             </div>
@@ -25,8 +27,25 @@ const Footer = ()=>(
               <div className="col-lg-4 col-md-6 footer-links">
                 <h4>Links de acceso</h4>
                 <ul>
-                  <li><i className="bx bx-chevron-right"></i> <a href="none">Inicio</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="none">Contáctenos</a></li>
+                <li>
+                    <Link to="/">
+                      <i className="bx bx-chevron-right"></i> 
+                      <a href="none">Inicio</a>
+                      </Link>
+                      </li>
+                  
+                  <li>
+                    <Link to="/Login">
+                      <i className="bx bx-chevron-right"></i> 
+                      <a href="none">Iniciar Sesión</a>
+                      </Link>
+                      </li>
+                  <li>
+                    <Link to="/Contactenos">
+                      <i className="bx bx-chevron-right"></i> 
+                      <a href="none">Contáctenos</a>
+                      </Link>
+                      </li>
                   <li><i className="bx bx-chevron-right"></i> <a href="none">Team</a></li>
                   <li><i className="bx bx-chevron-right"></i> <a href="none">Trámites</a></li>
                   <li><i className="bx bx-chevron-right"></i> <a href="none">Política de privacidad</a></li>

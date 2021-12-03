@@ -2,20 +2,20 @@ import './App.css';
 import TopBar from './components/TopBar';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Formulario from './components/Formulario';
+import Contactenos from './components/Contactenos';
 
 
-function App2() {
+function App3() {
   return (
     <div>
       <TopBar />
       <Header />
       < main id="main" >
-      <Formulario nameForm="Registro Nuevo Usuario"/>
+      <Contactenos />
       </main >
       <Footer />
     </div >
   );
 }
 
-export default App2;
+export default App3;

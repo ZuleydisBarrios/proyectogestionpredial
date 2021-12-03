@@ -1877,3 +1877,19 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+/* Estilo hoja Login */
+.login-block{
+  background: #dcf7e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #16a81e, #03723a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #eaf4f5, #dbe0fb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+float:left;
+width:100%;
+padding : 50px 0;
+}
+.banner-sec{background:url(https://wmtake.ru/wp-content/uploads/2021/05/klyuch-belagroprombank-3.jpg)  no-repeat left bottom; background-size:cover; min-height:500px; border-radius: 0 10px 10px 0; padding:0;}
+.containerLogin{background:#fff; border-radius: 10px; box-shadow:15px 20px 0px rgba(0,0,0,0.1);}
+.carousel-inner{border-radius:0 10px 10px 0;}
+.login-sec{padding: 50px 30px; position:relative;}
+.login-sec .copy-text{position:absolute; width:80%; bottom:20px; font-size:13px; text-align:center;}
+.login-sec h2:after{content:" "; width:100px; height:5px; background:#03751c; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
