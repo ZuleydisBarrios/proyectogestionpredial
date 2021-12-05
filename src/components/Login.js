@@ -1,4 +1,6 @@
 import Boton from "./Boton";
+import { Link } from 'react-router-dom';
+
 const Login = () => (
     <div>
         <section className="login-block">
@@ -25,7 +27,7 @@ const Login = () => (
                                 </label>
                             </div>
                             <div align="center">
-                            <Boton title="Ingresar" clase="btn btn-primary m-2 "/>
+                            <Link to="/ingreso"><Boton title="Ingresar" clase="btn btn-primary m-2 "/></Link>
                             </div>
                         </form>
 

@@ -11,7 +11,7 @@ function App2() {
       <TopBar />
       <Header />
       < main id="main" >
-      <Formulario nameForm="Registro Nuevo Usuario"/>
+      <Formulario nameForm="Registro Nuevo Usuario"/>      
       </main >
       <Footer />
     </div >

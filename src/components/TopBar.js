@@ -1,5 +1,3 @@
-import React from 'react';
-
 const TopBar = ()=>(
     <section id="topbar" className="d-flex align-items-center">
     <div className="container d-flex justify-content-center justify-content-md-between">
@@ -16,5 +14,4 @@ const TopBar = ()=>(
     </div>
   </section >
 )
-
 export default TopBar;

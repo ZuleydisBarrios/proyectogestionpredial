@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
-
+import ExampleModal from './ExampleModal'
 import Boton from "./Boton";
 
 
@@ -188,7 +188,8 @@ class Formulario extends Component {
                     <Link to="/">< Boton title="Cancelar" clase= "btn btn-danger m-2" /></Link>
                     </div>
                     <div className="col">
-                    < Boton title="Registrarse" clase="btn btn-primary m-2" />
+                    <ExampleModal title = "Registrarse"/>
+                    {/* < Boton title="Registrarse" clase="btn btn-primary m-2" /> */}
                     </div>
                     </div>
                 </form>

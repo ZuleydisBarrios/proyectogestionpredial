@@ -1,4 +1,13 @@
 import NavBar from "./NavBar";
+const listaNavBar = {
+  titulo1: "inicio",
+  titulo2: "Contactenos",
+  titulo3:"Team",
+  titulo4:"Tramites",
+  titulo5: "Predios",
+  titulo6: "Asociar Predios",
+  titulo7: "Asociar Pagos"
+}
 
 const Header = ()=>(
      < header id="header" className="d-flex align-items-center" >
@@ -7,7 +16,8 @@ const Header = ()=>(
        <div className="logo">
          <h1><a href="index.html">Huila</a></h1>
          </div>
-       <NavBar />
+         
+       <NavBar { ...listaNavBar } />
      </div>
    </header >
 )

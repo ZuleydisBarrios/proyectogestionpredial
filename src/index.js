@@ -10,6 +10,8 @@ import App from './App';
 import App2 from './App2'
 import App3 from './App3'
 import App4 from './App4'
+import App5 from './App5'
+
 
 
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
@@ -22,6 +24,8 @@ ReactDOM.render(
         <Route path="/registro" element={<App2 />} />
         <Route path="/Contactenos" element={<App3 />} />
         <Route path="/Login" element={<App4 />} />
+        <Route path="/ingreso" element={<App5 />} />
+
 
 
 
